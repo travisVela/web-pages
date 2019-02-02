@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Codeup Design</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
@@ -10,31 +11,57 @@
 <body>
     <div class="container-fluid">
 
-        <!-- navbar -->
+        <!-- xs navbar -->
 
-        <div class="row">
-            <div class="col d-flex flex-column ">
-                <nav class="navbar navbar-light bg-light mt-5">
-                    <a class="navbar-brand mx-auto d-flex flex-column" href="#">
+        <div class="row d-block d-sm-none">
+            <div class="col d-flex flex-column mt-5">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="col-12 navbar-brand mx-auto d-flex flex-column align-self-center" href="#">
                         <img src="images/codeup-design/logo.png" width="105" height="105"
-                             class="d-block mx-auto" alt="codeup design">
-                        <div class="d-block mx-auto text-center display-4">
+                             class="mx-auto" alt="codeup design">
+                        <div class="text-center lead">
                             codeup design
                         </div>
                     </a>
-                    <div class="col-12 text-center navbar-nav my-5 d-inline-block">
-                        <a class="nav-item nav-link text-dark d-inline-block active" href="#">Services <span
-                                class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link text-dark d-inline-block mx-auto" href="#">Work</a>
-                        <a class="nav-item nav-link text-dark d-inline-block" href="#">Blog</a>
-                        <a class="nav-item nav-link text-dark d-inline-block" href="#">Contact</a>
+                    <div class="col text-center navbar-nav my-2 d-inline-flex justify-content-center px-0">
+                        <div class="row">
+                            <div class="col-9 mx-auto d-inline-flex justify-content-around px-0">
+                                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around active "
+                                    href="#">Services
+                                <span class="sr-only">(current)</span></a>
+                                <a class=" nav-item nav-link text-dark d-inline-flex justify-content-around " href="#">Work</a>
+                                <a class=" nav-item nav-link text-dark d-inline-flex justify-content-around " href="#">Blog</a>
+                                <a class=" nav-item nav-link text-dark d-inline-flex justify-content-around " href="#">Contact</a>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </div>
-            <header>
 
-            </header>
+
         </div>
+
+        <!--   sm navbar   -->
+
+        <div class="row mt-5">
+            <nav class="col d-flex flex-column navbar navbar-light bg-light">
+                <a class="navbar-brand mx-auto d-flex flex-column align-self-center order-sm-3" href="#">
+                    <img src="images/codeup-design/logo.png" width="105" height="105" alt="codeup design" class="mx-auto">
+                    <div class="text-center lead">
+                        codeup design
+                    </div>
+                </a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around active order-sm-1"
+                href="#">Services
+                    <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around order-sm-2" href="#">Work</a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around order-sm-4" href="#">Blog</a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around order-sm-5" href="#">Contact</a>
+            </nav>
+        </div>
+        <header>
+
+        </header>
     </div>
         <main class="container">
 
