@@ -1,5 +1,6 @@
 body {
     /*background-color: #eeeeee;*/
+    height: 2000px;
 }
 
 /*************
@@ -27,3 +28,30 @@ body {
 .carousel-caption {
     top: 50%;
 }
+
+/***********
+*          *
+*   body   *
+*          *
+***********/
+.row {
+    height: 300px;
+    border: 1px solid #333;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-4-lg {
+    display: flex;
+    width: 30%;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.rounded-circle {
+    align-items: center;
+    justify-content: center;
+
+}.shadow:hover {
+    box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.3);
+     transition: all .3s ease 0s;
+ }
