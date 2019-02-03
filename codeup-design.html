@@ -41,34 +41,81 @@
 
         </div>
 
-        <!--   sm navbar   -->
+        <!--   sm and up navbar   -->
 
-        <div class="row mt-5">
-            <nav class="col d-flex flex-column navbar navbar-light bg-light">
-                <a class="navbar-brand mx-auto d-flex flex-column align-self-center order-sm-3" href="#">
-                    <img src="images/codeup-design/logo.png" width="105" height="105" alt="codeup design" class="mx-auto">
-                    <div class="text-center lead">
+        <div class="row d-none d-sm-block mt-5">
+            <nav class="col d-flex flex-row navbar navbar-light bg-light">
+                <a class="navbar-brand  mx-sm-0 mr-md-auto d-flex flex-sm-column flex-md-row align-self-sm-start align-self-md-center order-sm-3 order-md-1"
+                    href="#">
+                    <img src="images/codeup-design/logo.png" width="105" height="105" alt="codeup design"
+                         class="d-flex align-self-center mx-sm-2 mx-md-4">
+                    <div class="d-flex align-self-center text-center lead">
                         codeup design
                     </div>
                 </a>
-                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around active order-sm-1"
-                href="#">Services
-                    <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around order-sm-2" href="#">Work</a>
-                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around order-sm-4" href="#">Blog</a>
-                <a class="nav-item nav-link text-dark d-inline-flex justify-content-around order-sm-5" href="#">Contact</a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-md-end px-sm-3 px-md-4 ml-auto active order-sm-1 order-md-2"
+                    href="#">Services
+                <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-md-end px-sm-3 px-md-4 order-sm-2 order-md-3" href="#">Work</a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-md-end px-sm-3  px-md-4 order-sm-4"
+                   href="#">Blog</a>
+                <a class="nav-item nav-link text-dark d-inline-flex justify-content-md-end px-sm-3 px-md-4 mr-sm-auto mr-md-0 order-sm-5 "
+                   href="#">Contact</a>
             </nav>
         </div>
-        <header>
 
+        <!--   headings   -->
+
+        <header>
+            <h2 class="col-12 d-flex flex-row text-center justify-content-center my-5 mx-auto mx-sm-0">
+                Visual Design & Web Development</h2>
+            <!--<h3 class="col-12 d-none d-sm-block d-flex flex-row text-center justify-content-center my-5 mx-auto mx-sm-0">-->
+                <!--Visual Design & Web Development</h3>-->
+            <h4 class="col-12 d-flex flex-row text-center justify-content-center mx-auto my-4">
+                From Park City, Utah
+            </h4>
         </header>
     </div>
-        <main class="container">
+    <main class="container-fluid">
+        <div class="row col-md-9 mx-md-auto d-flex flex-row justify-content-center align-items-center">
+            <div class="col-5 col-sm-2 d-flex flex-row mx-3 mx-sm-2 my-2 rounded-circle justify-content-center align-items-center text-center circle design">
+                <h4 class="d-block d-sm-none">
+                    Design
+                </h4>
+                <div class="d-none d-sm-block font-weight-bold text-uppercase">
+                    Design
+                </div>
+            </div>
+            <div class="col-5 col-sm-2 d-flex flex-row mx-3 mx-sm-2 my-2 rounded-circle justify-content-center align-items-center text-center circle develop">
+                <h4 class="d-block d-sm-none">
+                    Develop
+                </h4>
+                <div class="d-none d-sm-block font-weight-bold text-uppercase">
+                    Develop
+                </div>
+            </div>
+            <div class="col-5 col-sm-2 d-flex flex-row mx-3 mx-sm-2 my-2 rounded-circle justify-content-center align-items-center text-center circle support">
+                <h4 class="d-block d-sm-none">
+                    Support
+                </h4>
+                <div class="d-none d-sm-block font-weight-bold text-uppercase">
+                    Support
+                </div>
+            </div>
+            <div class="col-5 col-sm-2 d-flex flex-row mx-3 mx-sm-2 my-2 rounded-circle justify-content-center align-items-center text-center circle host">
+                <h4 class="d-block d-sm-none">
+                    Host
+                </h4>
+                <div class="d-none d-sm-block font-weight-bold text-uppercase">
+                    Host
+                </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <footer>
 
-        </main>
-        <footer>
-
-        </footer>
+    </footer>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
