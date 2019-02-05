@@ -1,0 +1,40 @@
+:root {
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
+}
+.para-img-1,
+.para-img-2,
+.para-img-3,
+.para-img-4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    color: #eee;
+}
+.para-img-1 {
+    background-image: url('../images/web-page-3/gryffindor-banner.jpg');
+}
+.para-img-2 {
+    background-image: url('../images/web-page-3/hufflepuff-banner.jpg');
+}
+.para-img-3 {
+    background-image: url('../images/web-page-3/ravenclaw-banner.jpg');
+}
+.para-img-4 {
+    background-image: url('../images/web-page-3/slytherin-banner.jpg');
+}
+
