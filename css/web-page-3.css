@@ -1,5 +1,19 @@
 :root {
+    --gryff-bg: #740001;
+    --gryff-bg-muted: #74000140;
+    --gryff-bd: #d3a625;
 
+    --huff-bg: #ecb939;
+    --huff-bg-muted: #ecb93940;
+    --huff-bd: #372e29;
+
+    --raven-bg: #0e1a40;
+    --raven-bg-muted: #0e1a4040;
+    --raven-bd: #946b2d;
+
+    --slyth-bg: #1a472a;
+    --slyth-bg-muted: #1a472a40;
+    --slyth-bd: #aaa;
 }
 * {
     margin: 0;
@@ -8,7 +22,7 @@
 
 body, html {
     height: 100%;
-    margin: 0 auto;
+    margin: 0 -15px;
     font-family: 'Lato', sans-serif;
     line-height: 1.8em;
 }
@@ -25,6 +39,12 @@ body, html {
     height: 500px;
     color: #eee;
 }
+
+/************************
+*                       *
+*   background images   *
+*                       *
+************************/
 .para-img-1 {
     background-image: url('../images/web-page-3/gryffindor-banner.jpg');
 }
@@ -38,3 +58,112 @@ body, html {
     background-image: url('../images/web-page-3/slytherin-banner.jpg');
 }
 
+/***************
+*              *
+*   headings   *
+*              *
+***************/
+.gryff-heading {
+    color: var(--gryff-bd);
+}
+.huff-heading {
+    color: var(--huff-bd);
+}
+.rave-heading {
+    color: var(--raven-bd);
+}
+.slyth-heading {
+    color: var(--slyth-bd);
+}
+
+/***************
+*              *
+*   sections   *
+*              *
+***************/
+#section-gryff {
+    background-color: var(--gryff-bg-muted);
+}
+#section-huff {
+    background-color: var(--huff-bg-muted);
+}
+#section-raven {
+    background-color: var(--raven-bg-muted);
+}
+#section-slyth {
+    background-color: var(--slyth-bg-muted);
+}
+
+
+/**************
+*             *
+*   buttons   *
+*             *
+**************/
+.btn-gryff {
+    background-color: var(--gryff-bg);
+    color: #fff;
+    border: 1px solid var(--gryff-bg);
+}
+.btn-gryff:hover {
+    background-color: #fff;
+    color: var(--gryff-bg);
+}
+.btn-huff {
+    background-color: var(--huff-bg);
+    color: #fff;
+    border: 1px solid var(--huff-bg);
+}
+.btn-huff:hover {
+    background-color: #fff;
+    color: var(--huff-bg);
+}
+.btn-raven {
+    background-color: var(--raven-bg);
+    color: #fff;
+    border: 1px solid var(--raven-bg);
+}
+.btn-raven:hover {
+    background-color: #ffffff;
+    color: var(--raven-bg);
+}
+.btn-slyth {
+    background-color: var(--slyth-bg);
+    color: #fff;
+    border: 1px solid var(--slyth-bg);
+}
+.btn-slyth:hover {
+    background-color: #fff;
+    color: var(--slyth-bg);
+}
+
+/*************
+*            *
+*   modals   *
+*            *
+*************/
+#gryff-modal h5 {
+    color: var(--gryff-bd);
+}
+#huff-modal h5 {
+    color: var(--huff-bd);
+}
+#raven-modal {
+    color: var(--raven-bd);
+}
+#slyth-modal {
+    color: var(--slyth-bd);
+}
+
+.gryff-modal {
+    border: 3px solid var(--gryff-bd);
+}
+.huff-modal {
+    border: 3px solid var(--huff-bd);
+}
+.raven-modal {
+    border: 3px solid var(--raven-bd);
+}
+.slyth-modal {
+    border: 3px solid var(--slyth-bd);
+}
